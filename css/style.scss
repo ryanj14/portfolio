@@ -69,7 +69,10 @@ figcaption {
         grid-template-columns: 100px 100px 100px 100px 100px;
         grid-gap: 5em;
         justify-content: space-evenly;
-        @media (max-width: 768px) {
+        @media screen and (max-width: 960px) {
+            grid-gap: 1em;
+        }
+        @media screen and (max-width: 420px) {
             grid-template-columns: 100px 100px;
             grid-gap: 2em;
         }
